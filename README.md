@@ -7,7 +7,7 @@ This project is divided into two distinct parts:
 - 🖼️ A **Desktop Image Editing Application** using **Tkinter** and **OpenCV**
 - 🎮 A **Side-Scrolling 2D Game** using **Pygame**
 
----
+-----
 
 ## 📝 Project Overview
 
