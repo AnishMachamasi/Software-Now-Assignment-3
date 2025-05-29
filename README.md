@@ -1,17 +1,17 @@
-# 🎓 HIT137 Group Assignment 3 – Image Editor & 2D Side-Scrolling Game
+# 🎓 HIT137 Group Assignment 3 – Image Editor & 2D Scrolling Shooter Game
 
 Welcome to our repository for **Group Assignment 3** for the **HIT137 – Foundations of Computer Science** course at **Charles Darwin University**.
 
 This project is divided into two distinct parts:
 
 - 🖼️ A **Desktop Image Editing Application** using **Tkinter** and **OpenCV**
-- 🎮 A **Side-Scrolling 2D Game** using **Pygame**
+- 🎮 A **Scrolling Shooter 2D Game** using **Pygame**
 
 ---
 
 ## 📝 Project Overview
 
-This project demonstrates key programming concepts learned in HIT137, including object-oriented programming, graphical user interface design, and basic game development. It consists of two main deliverables: an image editor application that supports loading, cropping, resizing, and saving images, and a side-scrolling 2D game featuring player control, enemies, collectibles, and multiple levels.
+This project demonstrates key programming concepts learned in HIT137, including object-oriented programming, graphical user interface design, and basic game development. It consists of two main deliverables: an image editor application that supports loading, cropping, resizing, and saving images, and a scrolling shooter 2D game featuring player control, enemies, collectibles, and multiple levels.
 
 ---
 
@@ -37,7 +37,7 @@ This project demonstrates key programming concepts learned in HIT137, including 
     - `gui.py` — GUI components and event handling  
     - **assets/** — Image and icon assets  
     - `README.md` — Image editor documentation  
-  - **scrolling_shooter_game/** — Side-scrolling 2D platformer (Pygame)  
+  - **scrolling_shooter_game/** — Scrolling shooter 2D platformer (Pygame)  
     - `main.py` — Game loop and controls  
     - `button.py`
     - `config.py`
@@ -68,7 +68,7 @@ This project demonstrates key programming concepts learned in HIT137, including 
 cd image_editor
 python main.py
 ```
-## 🎮 Question 2: Side-Scrolling Game
+## 🎮 Question 2: Scrolling Shooter Game
 
 ### ✅ Features
 - Player can run, jump, shoot
@@ -90,7 +90,7 @@ python main.py
 
 ### 📸 Game Previews
 
-> _Below are a few screenshots showcasing the side-scrolling game interface and gameplay._
+> _Below are a few screenshots showcasing the scrolling shooter game interface and gameplay._
 
 ![Main Menu](HIT137-Group-Assignment-3/scrolling_shooter_game/screenshots/1.png)
 *Main menu screen with start and exit options.*
@@ -134,7 +134,7 @@ python main.py
 | Name            | Student ID | Email |
 |-----------------|------------|------ |
 | Anish Machamasi | S389151 | anishmachamasi2262@gmail.com |
-| Xiaoyu Wang  | Sxxxxxxx   |
+| Xiaoyu Wang  | S391743   |ginaxu1230@gmail.com |
 | Veli Oz    | S392097   | veliozau@gmail.com |
 
 ---
