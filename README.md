@@ -32,15 +32,16 @@ This project demonstrates key programming concepts learned in HIT137, including 
 
 - **HIT137-Group-Assignment-3/**  
   - **image_editor/** — Desktop application (Tkinter + OpenCV)  
-    - `main.py` — Entry point  
-    - `image_utils.py` — Image processing logic  
-    - `gui.py` — GUI components and event handling  
-    - **assets/** — Image and icon assets  
-    - `README.md` — Image editor documentation  
+    - `main.py` — Application entry point 
+    - `__init__.py` — Package initialization  
+    - **app/** — Image and icon assets  
+      - `__init__.py` - Module initialization
+      - `gui.py` - Main GUI interface and event handlers and image processing logic
+    - **screenshots/** - Application demo screenshots
   - **scrolling_shooter_game/** — Scrolling shooter 2D platformer (Pygame)  
-    - `main.py` — Game loop and controls  
-    - `button.py`
-    - `config.py`
+    - `main.py` — Main game loop and controls 
+    - `button.py` - UI button implementations
+    - `config.py` - Game configuration and constants
     - **img/** — Game image assets  
       - **background/** — Parallax scrolling backgrounds and environment scenes  
       - **enemy/** — Enemy character sprites  
@@ -51,7 +52,7 @@ This project demonstrates key programming concepts learned in HIT137, including 
     - **level_data/** — Saved level layout data (e.g., tile maps, enemy positions)  
     - **sounds/** — Sound effects and background music  
       - **audio/** — Audio files used for effects like shooting, jumping, and ambient music 
-
+    - **screenshots/** - Gameplay captures
 ---
 
 ## 🖼️ Question 1: Image Editor App
