@@ -57,11 +57,11 @@ This project demonstrates key programming concepts learned in HIT137, including 
 ## 🖼️ Question 1: Image Editor App
 
 ### ✅ Features
-- Load image from local system
-- Draw rectangle using mouse to crop
-- Real-time preview of selection
-- Resize cropped image using slider
-- Save modified image locally
+- Load image from local system,
+- Draw rectangle using mouse to crop,
+- Real-time preview of selection,
+- Resize cropped image using slider,
+- Save modified image locally.
 
 ### 🚀 How to Run
 ```bash
