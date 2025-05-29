@@ -56,12 +56,57 @@ This project demonstrates key programming concepts learned in HIT137, including 
 
 ## 🖼️ Question 1: Image Editor App
 
-### ✅ Features
-- Load image from local system,
-- Draw rectangle using mouse to crop,
-- Real-time preview of selection,
-- Resize cropped image using slider,
-- Save modified image locally.
+A Python-based image processing application with intuitive cropping and transformation tools.
+
+![App Screenshot](./HIT137-Group-Assignment-3/image_editor/screenshots/1.png)  
+*Main application interface*
+
+## ✨ Features
+
+### 🖌️ Core Functionality
+- **File Operations**:
+  - 📂 Load images from local system (JPG, PNG, BMP, TIFF)
+  - 💾 Save processed images in multiple formats
+- **Selection Tools**:
+  - 🖱️ Draw rectangular crop area with mouse
+  - 👀 Real-time selection preview
+- **Image Processing**:
+  - 🔍 Resize with interactive slider (10%-300%)
+  - 🎨 Apply filters and transformations
+
+### 🛠️ Editing Tools
+| Feature | Icon | Description |
+|---------|------|-------------|
+| Grayscale | ⚫ | Convert to black and white |
+| Blur | 🌫️ | Apply Gaussian blur |
+| Rotate | 🔄 | 90° left/right rotation |
+| Edge Detect | 🔍 | Highlight image edges |
+| Brightness | ☀️ | Increase/decrease exposure |
+| Sepia | 🟤 | Apply vintage filter |
+| Invert | 🔳 | Negative color effect |
+
+## 📸 Screenshots
+
+### 1. Image Loading & Selection
+![Loading Image](./HIT137-Group-Assignment-3/image_editor/screenshots/2.png)  
+*Selecting an image file*
+
+![Crop Selection](./HIT137-Group-Assignment-3/image_editor/screenshots/3.png)  
+*Interactive crop selection with live preview*
+
+### 2. Editing Features
+![Grayscale Effect](./HIT137-Group-Assignment-3/image_editor/screenshots/4.png)  
+*Black and white conversion*
+
+![Sepia Filter](./HIT137-Group-Assignment-3/image_editor/screenshots/5.png)  
+*Vintage sepia effect applied*
+
+### 3. Output Options
+![Resize Preview](./HIT137-Group-Assignment-3/image_editor/screenshots/6.png)  
+*Adjusting output size with slider*
+
+![Save Dialog](./HIT137-Group-Assignment-3/image_editor/screenshots/7.png)  
+*Saving in different formats*
 
 ### 🚀 How to Run
 ```bash

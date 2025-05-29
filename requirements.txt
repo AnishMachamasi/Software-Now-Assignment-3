@@ -1,3 +1,5 @@
 opencv-python>=4.5.0
 pygame>=2.0.0
 pygame_gui
+pillow
+numpy
