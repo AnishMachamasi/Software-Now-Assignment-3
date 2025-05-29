@@ -106,9 +106,8 @@ python main.py
 | Name            | Student ID | Email |
 |-----------------|------------|------ |
 | Anish Machamasi | S389151 | anishmachamasi2262@gmail.com |
-| Xiaoyu Wang  | Sxxxxxxx   |
-| Veli Oz    | Sxxxxxxx   |
-
+| Xiaoyu Wang  | S391743  | ginaxu1230@gmail.com
+| Veli Oz    | SS392097| veliozau@gmail.com
 ---
 
 ## ✅ Submission Checklist
