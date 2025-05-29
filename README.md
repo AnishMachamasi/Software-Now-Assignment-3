@@ -37,18 +37,20 @@ This project demonstrates key programming concepts learned in HIT137, including 
     - `gui.py` — GUI components and event handling  
     - **assets/** — Image and icon assets  
     - `README.md` — Image editor documentation  
-  - **side_scrolling_game/** — Side-scrolling 2D platformer (Pygame)  
+  - **scrolling_shooter_game/** — Side-scrolling 2D platformer (Pygame)  
     - `main.py` — Game loop and controls  
-    - `player.py` — Player class  
-    - `enemy.py` — Enemy class  
-    - `projectile.py` — Projectile mechanics  
-    - `collectible.py` — Collectibles and bonuses  
-    - `level.py` — Level design and transitions  
-    - `game_utils.py` — Shared functions/utilities  
-    - **assets/**  
-      - **images/** — Sprites and backgrounds  
-      - **sounds/** — Audio files  
-    - `README.md` — Game documentation  
+    - `button.py`
+    - `config.py`
+    - **img/** — Game image assets  
+      - **background/** — Parallax scrolling backgrounds and environment scenes  
+      - **enemy/** — Enemy character sprites  
+      - **explosion/** — Explosion animation sprites  
+      - **icons/** — UI icons such as health, lives, and ammo  
+      - **player/** — Player character sprites for running, jumping, shooting  
+      - **tile/** — Terrain tiles and platforms for level design  
+    - **level_data/** — Saved level layout data (e.g., tile maps, enemy positions)  
+    - **sounds/** — Sound effects and background music  
+      - **audio/** — Audio files used for effects like shooting, jumping, and ambient music 
 
 ---
 
@@ -75,6 +77,32 @@ python main.py
 - Boss battle on final level
 - Scoring system, player health, and lives
 - Game Over screen with restart option
+
+### 🕹️ Controls
+| Key         | Action         |
+|-------------|----------------|
+| `D`         | Move Right     |
+| `A`         | Move Left      |
+| `W`         | Jump           |
+| `Spacebar`  | Shoot          |
+
+> Use these keys to control your character throughout the game. Timing and movement are crucial, especially during enemy encounters and boss battles!
+
+### 📸 Game Previews
+
+> _Below are a few screenshots showcasing the side-scrolling game interface and gameplay._
+
+![Main Menu](HIT137-Group-Assignment-3/scrolling_shooter_game/screenshots/1.png)
+*Main menu screen with start and exit options.*
+
+![Gameplay Level 1](HIT137-Group-Assignment-3/scrolling_shooter_game/screenshots/2.png)
+*Gameplay showing the player shooting and collecting items in Level 1.*
+
+![Boss Battle](HIT137-Group-Assignment-3/scrolling_shooter_game/screenshots/3.png)
+*Intense boss battle with explosions and projectiles.*
+
+![Boss Battle](HIT137-Group-Assignment-3/scrolling_shooter_game/screenshots/4.png)
+*Game Ending with Restart Option*
 
 ### 🚀 How to Run
 ```bash
@@ -107,7 +135,7 @@ python main.py
 |-----------------|------------|------ |
 | Anish Machamasi | S389151 | anishmachamasi2262@gmail.com |
 | Xiaoyu Wang  | Sxxxxxxx   |
-| Veli Oz    | Sxxxxxxx   |
+| Veli Oz    | S392097   | veliozau@gmail.com |
 
 ---
 
