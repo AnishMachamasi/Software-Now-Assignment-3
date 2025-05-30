@@ -161,7 +161,7 @@ python main.py
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/HIT137-Group-Assignment-3.git
+   git clone https://github.com/AnishMachamasi/Software-Now-Assignment-3.git
    cd HIT137-Group-Assignment-3
     ```
 2. **Create Virtual Environment (Optional but Recommended)**
